@@ -1,0 +1,21 @@
+1.键入 main 并点击 tab 键，PyCharm 会自动补全整个 main 从句
+2.如果你在条件句前忘记键入 if,在该句子最后增添.if 并点击 Tab 键,PyCharm 将修复该 if 条件句;该用法同样适用于 True.while
+3.在 PyCharm 中进行代码测试
+    默认unittest 被用作测试运行器,而 PyCharm 还支持其他测试框架,如 pytest、nose、doctest、tox 和 trial
+    你可以按照以下步骤为项目选择 pytest 测试运行器:
+    1)打开 Settings/Preferences → Tools → Python Integrated Tools 设置对话框.
+    2)在默认测试运行器字段中选择 pytest.
+    3)点击 OK 保存该设置
+    https://www.sohu.com/a/376644860_752099(参考网址)
+4.搜索和导航
+    1)在当前文件中搜索代码段:Linux 系统中使用 Ctrl+F
+    2)在整个项目中搜索代码段: Linux 系统中使用 Ctrl+Shift+F
+    3)搜索类:Linux 系统中使用 Ctrl+N
+    4)搜索文件: Linux 系统中使用 Ctrl+Shift+N
+    如果你不知道要搜索的是文件、类还是代码段，则搜索全部：按两次 Shift 键
+
+    1)前往变量的声明:Linux 系统中使用 Ctrl 键，然后单击变量
+    2)查看近期更改:在主菜单中点击 View → Recent Changes
+    3)查看近期文件:在主菜单中点击 View → Recent Files
+5.版本控制
+
